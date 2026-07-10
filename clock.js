@@ -1,5 +1,4 @@
 function updateClock() {
-
     const now = new Date();
 
     // Current Time
