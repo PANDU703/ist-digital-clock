@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IST Analog & Digital Clock</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Myclock.css">
+</head>
+
+<body>
+
+<div class="clock-container">
+
+    <div class="analog-clock">
+
+        <!-- Numbers -->
+        <div class="number n12">12</div>
+        <div class="number n1">1</div>
+        <div class="number n2">2</div>
+        <div class="number n3">3</div>
+        <div class="number n4">4</div>
+        <div class="number n5">5</div>
+        <div class="number n6">6</div>
+        <div class="number n7">7</div>
+        <div class="number n8">8</div>
+        <div class="number n9">9</div>
+        <div class="number n10">10</div>
+        <div class="number n11">11</div>
+
+        <!-- Hour Marks -->
+        <div class="mark m1"></div>
+        <div class="mark m2"></div>
+        <div class="mark m3"></div>
+        <div class="mark m4"></div>
+        <div class="mark m5"></div>
+        <div class="mark m6"></div>
+        <div class="mark m7"></div>
+        <div class="mark m8"></div>
+        <div class="mark m9"></div>
+        <div class="mark m10"></div>
+        <div class="mark m11"></div>
+        <div class="mark m12"></div>
+
+        <!-- Hands -->
+        <div class="hand hour" id="hour"></div>
+        <div class="hand minute" id="minute"></div>
+        <div class="hand second" id="second"></div>
+
+        <!-- Center Dot -->
+        <div class="center-dot"></div>
+
+    </div>
+    
+    <div class="digital-clock" id="digital">
+        00:00:00
+    </div>
+
+    <div class="timezone">
+        Indian Standard Time (IST)
+    </div>
+
+</div>
+
+<script src="Myclock.js"></script>
+
+</body>
+</html>
